@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#65c3ce</item>
+        <item name="colorPrimaryDark">#1c929f</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Button" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@android:color/white</item>
+        <item name="colorButtonNormal">#1c929f</item>
+        <item name="borderlessButtonStyle" width="9dp">@android:color/white</item>
+    </style>
+    <!--#cc62b3a0-->
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#05696b</item>
+        <item name="colorButtonNormal">#b082bdc4</item>
+    </style>
+
+    <style name="MyButton2" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@android:color/holo_blue_bright</item>
+        <item name="colorButtonNormal">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@android:color/holo_orange_dark</item>
+        <item name="colorControlActivated">@android:color/holo_green_light</item>
+    </style>
+
+    <style name="LinearProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#136871</item>
+        <item name="android:progressBackgroundTint">#65c3ce</item>
+    </style>
+
+    <style name="BottomNavigation">
+        <item name="android:background">@drawable/navigation_bar_color</item>
+        <item name="itemBackground">@drawable/navigation_bar_item_bg</item>
+        <item name="itemIconTint">@color/navigation_bar_txt_color</item>
+        <item name="itemTextColor">@color/navigation_bar_txt_color</item>
+        <item name="paddingStart">@dimen/bottom_navigation_padding</item>
+        <item name="paddingEnd">@dimen/bottom_navigation_padding</item>
+    </style>
+
+</resources>
